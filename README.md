@@ -5,12 +5,16 @@ import re
 
 input_str = input()
 
+
 x = re.match(r'[\d\d{2}\d{4}]+[\.|\-|\/|\:][\d\d{2}\d{4}]+[\.|\-|\/|\:][\d\d{2}\d{4}]+', input_str)
 
+
 if x:
+        
         print("yes")
     
 else:
+        
         print ("no")
     
     
@@ -28,7 +32,7 @@ if x:
     
 else:
 
-        print ("no")
+     print ("no")
 
 
 
